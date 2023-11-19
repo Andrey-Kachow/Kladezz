@@ -43,4 +43,12 @@ Bad compromise.
 But Haskell uses declarative syntax and maybe implement declarative natural language would be easier than imperative.
 Who knows.
 
+```
 
+linear search of query_item in list EVALUATES TO
+    FALSE if the list is empty,
+    TRUE if the head of the list = query_item,
+    OR OTHERWISE TO linear search of query_item in tail of the list.
+
+
+```
