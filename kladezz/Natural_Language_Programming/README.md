@@ -69,7 +69,7 @@ COMPLETE THE CASE AND THEN PROCEED.
 COMPLETE THE TASK AND THEN PROCEED.
 
 
-Notice that the capitalized KEYWORDS are grouped together forming a KEYFRASE.
+Notice that the capitalized KEYWORDS are grouped together forming a KEY PHRASE.
 Also, function syntax is such that the function name is broken down into several words and allows arguments to be between.
 It might be challenging to parse and therefore the concept must be proved.
 It is hoped to be possible because that would imply being cool.
