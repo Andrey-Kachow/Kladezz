@@ -4,13 +4,13 @@ The idea is to make a programming language that is as close as possible to the n
 
 ## Design Choices
 
-1) I think that would be cool to make the language not whitespace sensitive, so that a programmer could align code as they want
-2) Keywords or phrazes shall be UPPERCASE. It will leave freedom for the user to notice them in natural language sentences.
-3) In addition to the 2, upper case will create feeling off yelling at the machine what to do, which I think is funny.
+1) I think that would be cool to make the language not whitespace sensitive so that a programmer could align code as they want
+2) Keywords or phrases shall be UPPERCASE. It will leave freedom for the user to notice them in natural language sentences.
+3) In addition to the 2, upper case will create a feeling of yelling at the machine what to do, which I think is funny.
 
 ### 1. Whitespace sensitivity.
 
-Consider the followinf Python code.
+Consider the following Python code.
 
 ```
 
@@ -20,7 +20,7 @@ for _ in range(5):
 
 ```
 
-Is a valid python code. But the following is not:
+Is a valid Python code. But the following is not:
 
 ```
 
@@ -36,7 +36,7 @@ for _
 Making the language whitespace sensitive. As well as indentation sensitive.
 
 
-On the other hand consider the following snippet of a draft Natural Language Code:
+On the other hand, consider the following snippet of a draft Natural Language Code:
 
 ```
 
@@ -51,12 +51,12 @@ COMPLETE THE TASK AND THEN PROCEED.
     
 
 ```
-Every loop or conditional construct has beginning and ending, like '{' and '}' in C programming language.
+Every loop or conditional construct has a beginning and ending, like '{' and '}' in the C programming language.
 Wrapper code may be restricted to ensure consistent interpretation.
 
 
 The code does not look attractive for the experienced programmer.
-However the code can be reformatted as a natural language pretty much.
+However, the code can be reformatted as a natural language pretty much.
 
 
 FOR EVERY item IN A range between 0 and 5 DO THE FOLLOWING TASK:
@@ -69,9 +69,9 @@ COMPLETE THE CASE AND THEN PROCEED.
 COMPLETE THE TASK AND THEN PROCEED.
 
 
-Notice that the capialized KEYWORDS are group together forming a KEYFRASE.
-Also function syntax is such that funciton name is broken down into several words and allows arguments to be between.
+Notice that the capitalized KEYWORDS are grouped together forming a KEYFRASE.
+Also, function syntax is such that the function name is broken down into several words and allows arguments to be between.
 It might be challenging to parse and therefore the concept must be proved.
-It is hoped to be possible, because that would imply being cool.
+It is hoped to be possible because that would imply being cool.
 
 
