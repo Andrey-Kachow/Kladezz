@@ -40,7 +40,7 @@ linearSearch' queryItem list = if null list then False
 
 But it is hard to read for both programmers and non-programmers.
 Bad compromise.
-But Haskell uses declarative syntax and maybe implement declarative natural language would be easier than imperative.
+But Haskell uses declarative syntax and maybe implementing declarative natural language would be easier than imperative.
 Who knows.
 
 ```
@@ -51,9 +51,9 @@ linear search of query_item in list EVALUATES TO
 ```
 
 Looks not bad, but there is no consideration of type signature declaration.
-This is not a big problem in Haskell, where compiler can often determine type.
+This is not a big problem in Haskell, where the compiler can often determine type.
 But it is a good tone though to write it.
-And one of the ways to imagine type signature communication in a natural English would be as follows.
+And one of the ways to imagine type signature communication in natural English would be as follows.
 
 ```
 linear search of SOME Integer in SOME Integer List EVALUATES TO SOME Boolean.
@@ -63,10 +63,10 @@ linear search of query_item in list EVALUATES TO
     OR OTHERWISE TO linear search of query_item in tail of the list.
 ```
 
-Here the SOME token is abused for indicating the following type tokens.
+Here the SOME token is abused for indicating the following types of tokens.
 May not be the most natural word to use, but the other concern is what would be the better way to describe arguments and types together.
-In Haskell the sequence of types is described associatively, in a sense that sequence of argument types is followed bysequence of argument names.
-If we use java approach, where argument type is followed by the argument name, for example, we could have some thing like this:
+In Haskell, the sequence of types is described associatively, in the sense that the sequence of argument types is followed by a sequence of argument names.
+If we use Java approach, where the argument type is followed by the argument name, for example, we could have something like this:
 
 ```
 // Java:
