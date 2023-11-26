@@ -86,12 +86,15 @@ The latter attempt to write argument-first syntax is awkward. Kotlin on the othe
 
 ```
 
+// Kotlin:
 fun linearSearch(queryItem: Int, list: List<Int>): Int { ... }
 
+/* AlgoSpeak?
 
 linear search of SOME query_item OF TYPE Integer in SOME list OF TYPE LIST EVALUATES TO SOME Boolean WHICH IS
     FALSE if the list is empty,
     ...
 
+*/
 ```
 
